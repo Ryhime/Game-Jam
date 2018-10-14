@@ -6,6 +6,6 @@ if mouse_check_button_released(mb_left)
 }
 if global.selected != noone and created = false
 {
-	instance_create_layer(mouse_x,mouse_y,layer,global.selected)
+	instance_create_layer(mouse_x,mouse_y,"Blocks",global.selected)
 	created = true
 }

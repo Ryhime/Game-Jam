@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "25434acd-95fb-4926-bdd1-7b1226da0750",
+            "Value": {
+                "id": "897f5e7e-aa3b-4818-a2a9-49cdb98d5906",
+                "resourcePath": "sprites\\sprblockslot\\sprblockslot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2574cc74-590f-4148-a2ff-83053fc6c6a5",
             "Value": {
                 "id": "57435d05-50c9-4da7-8e3f-49bcfcf5fd25",
@@ -108,6 +116,14 @@
                 "id": "7abd5056-7785-440f-9f36-88f30c57adf0",
                 "resourcePath": "views\\7577d849-df37-4e1e-9852-fd43726d5f75.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "88f61727-21be-4698-aeaa-5594c6ea487d",
+            "Value": {
+                "id": "a1671a07-6c5d-4e7d-9e8a-19cc6d7bb849",
+                "resourcePath": "scripts\\scrcreateslots\\scrcreateslots.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -239,6 +255,14 @@
             }
         },
         {
+            "Key": "fc5696c3-22fa-49ee-9705-804ac7959786",
+            "Value": {
+                "id": "eba8e53c-c2e1-4825-a113-0b272679178f",
+                "resourcePath": "objects\\objslot\\objslot.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fe6c16f2-973e-46d8-b918-8373c86156bc",
             "Value": {
                 "id": "8f18b80b-9677-40b3-8333-aa95cec1c402",
@@ -249,7 +273,8 @@
     ],
     "script_order": [
         "cff07495-fdcc-4d7c-818e-46133b1000e3",
-        "fe6c16f2-973e-46d8-b918-8373c86156bc"
+        "fe6c16f2-973e-46d8-b918-8373c86156bc",
+        "88f61727-21be-4698-aeaa-5594c6ea487d"
     ],
     "tutorial": ""
 }
