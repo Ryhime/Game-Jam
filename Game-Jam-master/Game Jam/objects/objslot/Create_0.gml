@@ -1,1 +1,0 @@
-show_message(objblockmoveright.sprite_index)
