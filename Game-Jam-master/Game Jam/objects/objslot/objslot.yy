@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objslot",
     "eventList": [
-        
+        {
+            "id": "29a3b5cf-cb3c-4e6b-b1bf-08b208756b1b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "fc5696c3-22fa-49ee-9705-804ac7959786"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
