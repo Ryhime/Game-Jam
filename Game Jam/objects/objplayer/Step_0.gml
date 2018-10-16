@@ -11,25 +11,25 @@ if global.go = true
 		if value = "Move_Right"
 		{
 			hspeed = 5
-			alarm[0] = 20
+			alarm[0] = alarm1
 			going = true
 		}
 		if value = "Move_Left"
 		{
 			hspeed = -5	
-			alarm[0] = 20
+			alarm[0] = alarm1
 			going = true
 		}
 		if value = "Move_Down"
 		{
 			vspeed = 5
-			alarm[0] = 20
+			alarm[0] = alarm1
 			going = true
 		}
 		if value = "Move_Up"
 		{
 			vspeed = -5
-			alarm[0] = 20
+			alarm[0] = alarm1
 			going = true
 		}
 	}
