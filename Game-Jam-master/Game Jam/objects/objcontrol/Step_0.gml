@@ -1,4 +1,3 @@
-created = false
 //Mouse Let Go
 if mouse_check_button_released(mb_left) && colision == false 
 {	
@@ -7,17 +6,27 @@ if mouse_check_button_released(mb_left) && colision == false
 }
 else if mouse_check_button_released(mb_left) && colision == true and global.selected != noone
 {
-	slots += 1; //add an extra slot
+	slot += 1; //add an extra slot
 	global.selected = noone
-	created = false
+	create = false
 }
-show_debug_message(created)
-if global.selected != noone and !created
+if global.selected != noone and !create
 {
-	instance_create_layer(mouse_x,mouse_y,"Blocks",global.selected)
-	created = true
+	switch (global.selected) {
+	    case "Move_Right":
+			selected = objselectmoveright
+	        break;
+		case "Move_Left":
+			selected = objselectmoveleft
+			break
+	    default:
+	        // code here
+	        break;
+	}
+	instance_create_layer(mouse_x,mouse_y,"Blocks",selected)
+	create = true
 }
 if(room == rlv1)
 {
-	scrcreateslots(slots);
+	scrcreateslots(slot);
 }

@@ -1,5 +1,5 @@
 contact = place_meeting(x,y,objselectmoveleft) or place_meeting(x,y,objselectmoveright)
-if contact or mouse_check_button_released(mb_left)
+if contact and mouse_check_button_released(mb_left)
 {
 	switch (global.selected) {
     case "Move_Right":
