@@ -4,7 +4,7 @@ if mouse_check_button_released(mb_left) && colision == false
 	global.selected = noone;
 	created = false;										
 }
-else if mouse_check_button_released(mb_left) && colision == true
+else if mouse_check_button_released(mb_left) && colision == true and global.selected != noone
 {
 	slots += 1; //add an extra slot
 	global.selected = noone

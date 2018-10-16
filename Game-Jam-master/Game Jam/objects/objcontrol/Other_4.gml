@@ -1,7 +1,4 @@
-global.blocks_ava = ds_list_create()
-global.selected = noone
-created = false
-slots = 0
+
 //Lv 1 Spawn Blocks
 if room = rlv1
 {
