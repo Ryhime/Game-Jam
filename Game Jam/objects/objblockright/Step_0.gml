@@ -18,3 +18,8 @@ if mouse_check_button_released(mb_left)
 	global.selected = ""
 	global.created = false
 }
+//Check if go is clicked
+if place_meeting(mouse_x,mouse_y,objgo) and mouse_check_button_pressed(mb_left)
+{
+	global.go = true
+}

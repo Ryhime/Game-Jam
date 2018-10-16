@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "08cb66ea-e48e-4290-a379-3e2d1a6b05cb",
+            "Value": {
+                "id": "2e95ee59-5e5a-4d67-985a-f74c1b49baa0",
+                "resourcePath": "objects\\objplayer\\objplayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "119ac387-2071-4bd0-8556-6b2441078f3c",
             "Value": {
                 "id": "2f5cd7d4-1ba3-4e21-89aa-5a95e63c18fb",
@@ -111,6 +119,14 @@
             }
         },
         {
+            "Key": "2de09ce2-9adc-4120-b717-31f5a0a49bc0",
+            "Value": {
+                "id": "ba220166-5bb5-4d3b-85ec-4b663f772225",
+                "resourcePath": "sprites\\sprgo\\sprgo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2e4db9a0-dd36-4dbf-866d-4fec9f9b1d49",
             "Value": {
                 "id": "5389bd5e-de7a-4254-a87e-da0a60fdfee0",
@@ -172,6 +188,14 @@
                 "id": "18a83a01-6ae7-475d-a8f2-8b39c520c2af",
                 "resourcePath": "objects\\objslot3\\objslot3.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7a87bbbb-7233-4cf5-b1c1-96a7ea925f09",
+            "Value": {
+                "id": "0383edd3-7e98-43ef-a7d1-1c0ccf73b029",
+                "resourcePath": "views\\7a87bbbb-7233-4cf5-b1c1-96a7ea925f09.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -279,6 +303,14 @@
             }
         },
         {
+            "Key": "ca0848e6-5859-4506-a6f5-6cf7f04d1dba",
+            "Value": {
+                "id": "f9fbeb2b-fd5e-40cd-af73-efd3bfc37e3f",
+                "resourcePath": "objects\\objgo\\objgo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "bfffe4d0-4a4c-4a10-9107-86ada3a20891",
@@ -332,6 +364,14 @@
                 "id": "857df098-2773-47fd-925d-c4af54f9e08d",
                 "resourcePath": "views\\eee88f69-222a-4c54-8333-3efc011dfb37.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f7b90bc1-cc55-44a9-a6b2-1467d98d3c65",
+            "Value": {
+                "id": "aa5ee575-9c0a-47e4-8059-f145c687f94e",
+                "resourcePath": "sprites\\sprplayer\\sprplayer.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
