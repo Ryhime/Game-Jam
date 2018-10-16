@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "f6f91d7a-dfdf-41af-8a31-e6384047bfe7",
+            "Value": {
+                "id": "06810d6e-000d-4a29-9673-8cf94b38c551",
+                "resourcePath": "sounds\\sndbackground\\sndbackground.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "faab6551-c8ad-4909-a841-b9833c68e400",
             "Value": {
                 "id": "54d3a6e2-d51a-4bb2-9c32-535ad8225cd7",
