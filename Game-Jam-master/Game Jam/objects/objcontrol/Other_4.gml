@@ -1,4 +1,10 @@
-
+show_message("Hello")
+colision = false
+global.blocks_ava = ds_list_create()
+global.selected = noone
+slots = 0
+slots = 0
+created = true
 //Lv 1 Spawn Blocks
 if room = rlv1
 {

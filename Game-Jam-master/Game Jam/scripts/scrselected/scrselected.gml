@@ -10,4 +10,4 @@ if place_meeting(x,y,objslot)
 {
 	objcontrol.colision = true	
 }
-else colision = false
+else objcontrol.colision = false

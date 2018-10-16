@@ -1,2 +1,2 @@
-sprite = noone
+
 contact = false
