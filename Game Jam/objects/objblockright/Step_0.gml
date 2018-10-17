@@ -1,3 +1,9 @@
+//Cursor
+if mouse_check_button(mb_left)
+{
+	cursor_sprite = sprcursorclick
+}
+else cursor_sprite = sprcursor
 if place_meeting(mouse_x,mouse_y,objblockleft) and mouse_check_button_pressed(mb_left) and !global.go
 {
 	global.selected = "Move_Left"

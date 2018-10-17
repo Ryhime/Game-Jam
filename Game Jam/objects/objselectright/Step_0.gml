@@ -1,3 +1,4 @@
+
 x = mouse_x
 y = mouse_y
 if place_meeting(x,y,objslot1) and mouse_check_button_released(mb_left)

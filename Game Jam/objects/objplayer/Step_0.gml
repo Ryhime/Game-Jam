@@ -1,3 +1,8 @@
+//Check For Finish
+if place_meeting(x,y,objfinish)
+{
+	room_goto_next()
+}	
 //All Movement
 if global.go = true
 {
@@ -14,23 +19,28 @@ if global.go = true
 			alarm[0] = alarm1
 			going = true
 		}
-		if value = "Move_Left"
+		else if value = "Move_Left"
 		{
 			hspeed = -5	
 			alarm[0] = alarm1
 			going = true
 		}
-		if value = "Move_Down"
+		else if value = "Move_Down"
 		{
 			vspeed = 5
 			alarm[0] = alarm1
 			going = true
 		}
-		if value = "Move_Up"
+		else if value = "Move_Up"
 		{
 			vspeed = -5
 			alarm[0] = alarm1
 			going = true
+		}
+		else
+		{
+			going = true
+			alarm[0] = alarm1
 		}
 	}
 }
