@@ -62,8 +62,11 @@ if !place_free(x + hspeed, y + vspeed)
  if vspeed < 0 move_contact_solid(90,-vspeed)
  vspeed = 0
 }
-
-
+//Cursor on Blocks
+if place_meeting(mouse_x,mouse_y,objblockdown) or place_meeting(mouse_x,mouse_y,objblockup) or place_meeting(mouse_x,mouse_y,objblockright) or place_meeting(mouse_x,mouse_y,objblockleft) or place_meeting(mouse_x,mouse_y,objgo)
+{
+	cursor_sprite = sprcursorclick	
+}
 
 
 
