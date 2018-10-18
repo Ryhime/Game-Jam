@@ -25,6 +25,11 @@ if global.selected = "Move_Down" and global.created = false
 	instance_create_layer(mouse_x,mouse_y,"Selects",objselectdown)
 	global.created = true	
 }
+if global.selected = "Clone" and global.created = false
+{
+	instance_create_layer(mouse_x,mouse_y,"Selects",objselectclone)
+	global.created = true
+}
 if global.selected = "Move_Up" and global.created = false
 {
 	instance_create_layer(mouse_x,mouse_y,"Selects",objselectup)

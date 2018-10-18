@@ -8,10 +8,18 @@ global.ava_slots = 0
 if room = rlv1
 {
 	global.ava_slots = 4	
+	global.key = true
+}
+if room = rlv2
+{
+	global.ava_slots = 6
+	global.key = true
+}
+if room = rlv3
+{
+	global.ava_slots = 6
+	global.key = false
 }
 //Audio
 audio_stop_all()
-if room = rlv1
-{
-	audio_play_sound(sndlv1,0,true)	
-}
+audio_play_sound(sndlv1,0,true)	

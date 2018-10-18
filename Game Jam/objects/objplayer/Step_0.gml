@@ -1,21 +1,29 @@
+//Colision With Button
+if place_meeting(mouse_x,mouse_y,objgo)
+{
+	buttoncolision = true	
+}
+else buttoncolision = false
 //Set Slots
 if room = rlv2
 {
 	global.ava_slots = 6
 }
 //Check For Finish
-if place_meeting(x,y,objfinish)
+if place_meeting(x,y,objfinish) and global.key = true
 {
 	room_goto_next()
 }	
 //All Movement
 if global.go = true
 {
+	
 	if findvalue = false
 	{
 		value = ds_list_find_value(global.directions,slot)
 		findvalue = true
 	}
+
 	if findvalue and slot <= global.ava_slots and going = false
 	{
 		if value = "Move_Right"
@@ -47,6 +55,12 @@ if global.go = true
 			debugging = true
 			going = true
 			instance_create_layer(objplayer.x,objplayer.y-50,layer,objdebug)
+			alarm[0] = alarm1
+		}
+		else if value = "Clone"
+		{
+			cloning = true
+			going = true
 			alarm[0] = alarm1
 		}
 		else
@@ -85,7 +99,11 @@ if place_meeting(mouse_x,mouse_y,objblockdebug) or place_meeting(mouse_x,mouse_y
 }
 
 
-
+//Key
+if place_meeting(x,y,objkey)
+{
+	global.key = true	
+}
 
 
 
@@ -99,7 +117,12 @@ if place_meeting(mouse_x,mouse_y,objblockdebug) or place_meeting(mouse_x,mouse_y
 
 
 //Sprite Index
-if hspeed != 0 
+if cloning
+{
+	sprite_index = sprclone	
+	image_speed = .5
+}
+else if hspeed != 0 
 {
 	sprite_index = sprplayerwalk
 	if hspeed < 0 
