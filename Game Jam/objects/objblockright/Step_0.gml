@@ -30,6 +30,11 @@ if global.selected = "Move_Up" and global.created = false
 	instance_create_layer(mouse_x,mouse_y,"Selects",objselectup)
 	global.created = true	
 }
+if global.selected = "Debug" and global.created = false
+{
+	instance_create_layer(mouse_x,mouse_y,"Selects",objselectdebug)
+	global.created = true
+}
 //Clear Selected
 if mouse_check_button_released(mb_left)
 {

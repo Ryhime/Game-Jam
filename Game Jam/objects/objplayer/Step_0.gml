@@ -1,3 +1,8 @@
+//Set Slots
+if room = rlv2
+{
+	global.ava_slots = 6
+}
 //Check For Finish
 if place_meeting(x,y,objfinish)
 {
@@ -37,6 +42,13 @@ if global.go = true
 			alarm[0] = alarm1
 			going = true
 		}
+		else if value = "Debug"
+		{
+			debugging = true
+			going = true
+			instance_create_layer(objplayer.x,objplayer.y-50,layer,objdebug)
+			alarm[0] = alarm1
+		}
 		else
 		{
 			going = true
@@ -44,7 +56,11 @@ if global.go = true
 		}
 	}
 }
-
+//Death By Bug
+if place_meeting(x,y,objbug)
+{
+	room_restart()	
+}
 //Collision
 if hspeed != 0
 if !place_free(x + hspeed, y)
@@ -63,7 +79,7 @@ if !place_free(x + hspeed, y + vspeed)
  vspeed = 0
 }
 //Cursor on Blocks
-if place_meeting(mouse_x,mouse_y,objblockdown) or place_meeting(mouse_x,mouse_y,objblockup) or place_meeting(mouse_x,mouse_y,objblockright) or place_meeting(mouse_x,mouse_y,objblockleft) or place_meeting(mouse_x,mouse_y,objgo)
+if place_meeting(mouse_x,mouse_y,objblockdebug) or place_meeting(mouse_x,mouse_y,objblockdown) or place_meeting(mouse_x,mouse_y,objblockup) or place_meeting(mouse_x,mouse_y,objblockright) or place_meeting(mouse_x,mouse_y,objblockleft) or place_meeting(mouse_x,mouse_y,objgo)
 {
 	cursor_sprite = sprcursorclick	
 }

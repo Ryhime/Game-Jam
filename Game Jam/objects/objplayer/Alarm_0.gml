@@ -8,3 +8,4 @@ if slot = global.ava_slots
 {
 	alarm[1] = 30	
 }
+debugging = false

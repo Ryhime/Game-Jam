@@ -13,3 +13,9 @@ if place_meeting(mouse_x,mouse_y,objblockdown) and mouse_check_button_pressed(mb
 	global.selected = "Move_Down"	
 	audio_play_sound(sndclick,100,false)
 }
+if place_meeting(mouse_x,mouse_y,objblockdebug) and mouse_check_button_pressed(mb_left) and !global.go 
+{
+	global.selected = "Debug"	
+	audio_play_sound(sndclick,100,false)
+}
+

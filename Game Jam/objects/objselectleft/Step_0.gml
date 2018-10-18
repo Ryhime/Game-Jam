@@ -54,8 +54,13 @@ else if place_meeting(x,y,objslot9) and mouse_check_button_released(mb_left)
 	ds_list_replace(global.directions,8,"Move_Left")
 	global.selected = ""
 }
-
-
+//Collision With objblockdebug
+if place_meeting(mouse_x,mouse_y,objblockdebug) and mouse_check_button_pressed(mb_left)
+{
+	audio_play_sound(sndclick,100,false)
+	instance_create_layer(mouse_x,mouse_y,layer,objselectdebug)
+}
+	
 
 
 
