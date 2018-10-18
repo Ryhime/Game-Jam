@@ -1,3 +1,4 @@
+if(place_meeting(x,y,objkey)) global.key = true
 hspeed = objplayer.hspeed
 vspeed = objplayer.vspeed 
 sprite_index = objplayer.sprite_index

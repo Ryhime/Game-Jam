@@ -17,7 +17,7 @@ if room = rlv2
 }
 if room = rlv3
 {
-	global.ava_slots = 6
+	global.ava_slots = 7
 	global.key = false
 }
 //Audio

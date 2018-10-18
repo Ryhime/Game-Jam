@@ -46,7 +46,7 @@ if global.go = true
 		}
 		else if value = "Move_Up"
 		{
-			vspeed = -5
+			vspeed = -7
 			alarm[0] = alarm1
 			going = true
 		}
